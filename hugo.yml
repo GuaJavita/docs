@@ -1,0 +1,18 @@
+baseURL: "https://guayavita.dev/"
+#languageCode: "en-us"
+title: "Guayavita Programing Language"
+theme: hugo-book
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+languages:
+  en:
+    languageName: English
+    contentDir: content/en
+    weight: 1
+params:
+  BookTheme: "auto"
+  BookRepo: https://github.com/Guayavita/docs
